@@ -16,3 +16,13 @@
 $router->get('/', function () use ($router) {
     return $router->app->version();
 });
+
+$router->group([
+    'prefix' => 'api',
+    'namespace' => 'Api',
+], function () use ($router) {
+    $router->get('me', [
+        'as' => 'me',
+        'uses' => 'MeController@show',
+    ]);
+});
