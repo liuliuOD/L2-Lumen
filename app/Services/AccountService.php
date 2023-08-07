@@ -14,7 +14,7 @@ class AccountService extends Service
     public function findMe()
     {
         $user = $this->userRepository->first();
-        $user->username = 'me';
+        $user->username = "me";
         return $user;
     }
 }

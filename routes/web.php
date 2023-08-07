@@ -18,11 +18,12 @@ $router->get('/', function () use ($router) {
 });
 
 $router->group([
+    'as' => 'api',
     'prefix' => 'api',
     'namespace' => 'Api',
 ], function () use ($router) {
     $router->get('me', [
-        'as' => 'me',
+        'as' => 'me.show',
         'uses' => 'MeController@show',
     ]);
 });
