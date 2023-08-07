@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use Laravel\Lumen\Routing\Controller as BaseController;
-
-class Controller extends BaseController
-{
-    //
-}
+/**
+ * @OA\Info(
+ *     title="L2 with Lumen framework API",
+ *     version="0.1"
+ * )
+ */
+class Controller extends \Laravel\Lumen\Routing\Controller
+{}

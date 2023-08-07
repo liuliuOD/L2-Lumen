@@ -1,6 +1,6 @@
 # L2 with Lumen framework
 
-## Execute Server
+## Execute Server in local
 ```shell
 $ php -S localhost:8800 -t public
 ```
