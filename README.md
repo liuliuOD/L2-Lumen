@@ -8,6 +8,11 @@ $ php -S localhost:8000 -t public
 # link Swagger docs by http://localhost:8000/api/documentation
 ```
 
+# Use this project
+
+- [API Project](http://localhost:8000)
+- [API Swagger Docs](http://localhost:8000/api/documentation)
+
 ## Included fields in the project
 
 - API demo
