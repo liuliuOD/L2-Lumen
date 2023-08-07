@@ -2,7 +2,7 @@
 
 ## Execute Server in local
 ```shell
-$ php -S localhost:8800 -t public
+$ php -S localhost:8000 -t public
 ```
 
 ## References
